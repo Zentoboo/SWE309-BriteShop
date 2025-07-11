@@ -1,0 +1,27 @@
+# AWS Credentials - NEVER commit these!
+app/aws-config.php
+app/config.php
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PHP
+vendor/
+composer.lock
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
